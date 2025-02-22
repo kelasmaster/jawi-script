@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jawi Script Mini App</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Jawi Script Learning App</h1>
+    <input type="text" id="search" placeholder="Search for a letter..." />
+  </header>
+
+  <main>
+    <div class="letter-grid" id="letterGrid">
+      <!-- Letters will be dynamically generated here -->
+    </div>
+
+    <div class="info-panel" id="infoPanel">
+      <h2>Selected Letter: <span id="selectedLetter">-</span></h2>
+      <p>Pronunciation: <span id="pronunciation">-</span></p>
+      <p>Usage: <span id="usage">-</span></p>
+      <audio controls id="audioPlayer">
+        <source src="" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Jawi Script Learning App</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
